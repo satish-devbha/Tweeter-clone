@@ -8,7 +8,7 @@
                 class="mb-2"
             />
 
-            <img src="/images/50.jpg" 
+            <img src="{{ $user->avatar }}" 
                 alt="" 
                 class="rounded-full mr-2 absolute bottom-0 transform -translate-x-1/2 translate-y-1/2"
                 width="150"

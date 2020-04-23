@@ -36,7 +36,7 @@
 
     <li>
         <a class="font-bold text-lg mb-4 block"
-            href="{{ route('profile', currentUser()->name) }}">
+            href="{{ route('profile', currentUser()->username) }}">
             Profile
         </a>
     </li>
