@@ -6,7 +6,7 @@
             name="body"
             class="w-full"
             placeholder="What's up doc?"
-            autofocus
+            
             required
         ></textarea>
 
