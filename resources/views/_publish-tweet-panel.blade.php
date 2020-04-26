@@ -6,7 +6,8 @@
             name="body"
             class="w-full"
             placeholder="What's up doc?"
-            
+            autofocus
+            required
         ></textarea>
 
         <hr class="my-4">
@@ -16,7 +17,7 @@
                 alt="Your Photo" 
                 class="rounded-full mr-2" width="40" height="40">
 
-            <button type="submit" class="bg-blue-500 rounded-lg shadow py-2 px-2 text-white">Tweet-a-boo</button>
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 rounded-lg shadow px-10 text-sm text-white h-10">Publish</button>
         </footer>    
     </form>
 

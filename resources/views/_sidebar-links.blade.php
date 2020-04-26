@@ -42,9 +42,13 @@
     </li>
 
     <li>
-        <a class="font-bold text-lg mb-4 block"
+        {{-- <a class="font-bold text-lg mb-4 block"
             href="/more">
             More
-        </a>
+        </a> --}}
+        <form action="/logout" method="post">
+            @csrf
+            <button type="submit" class="font-bold text-lg">Logout</button>
+        </form>
     </li>
 </ul>
