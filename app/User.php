@@ -51,7 +51,11 @@ class User extends Authenticatable
 
     public function getAvatarAttribute($value)
     {
-        return asset('storage/' . $value);
+        return asset($value ? 'storage/' . $value : '/images/50.jpg');
+    }
+
+    public function setPasswordAttribute($value) {
+        return $this->attributes['password'] = bcrypt($value);
     }
 
     public function path($append = '') {
